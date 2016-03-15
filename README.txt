@@ -5,10 +5,6 @@ i) My method reads in a text file as a string. Then I create a SimpleStack objec
 
 ii) I created several text files and passed them in as arguments in the main method to test different cases. First, the string in the file was perfectly and evenly balanced: "{(<[]>)}". Then I tested the string that was obviously not balanced: "[()}[]>)". I also tested a variety of strings that were balanced, but not as obvious/evenly as the first test string: "{([]{})<>}". Lastly, I passed in files that had lines of code (ex. Node.java).
 
-iii) No bugs that I know of/could find
-
-iv) Notes I took in class, class slides, midterm
-
 --------------------
 
 SECTION 3: Circular Singly Linked List (also applies to Singly Linked List)
@@ -21,7 +17,3 @@ Reverse: I kept track of a previous, current, and after node and pointed each to
 toString: Using my toString() method from my Node class (which returns the item of the node) and a toReturn string, I traversed the linked list and added each node with and arrow following it (line 76). Once I reached the last node, I added it as well along with an arrow pointing to "start." This signifies that the list is circular (last node points back to the start).
 
 ii) I created a main method within the same class and created my own circular singly linked list. I tested each of my methods (insert, reverse, delete, etc.) to make sure they were working correctly as well as added several print statements throughout the code to ensure that certain variables were updating correctly. When testing the delete(String s) method, I tested a variety of cases: string to be deleted was first in the list, string to be deleted was last in the list, string to be deleted was in the middle of the list, and string to be deleted occurred multiple times in the list (in a row & not in a row). I printed the linked list after each method invocation. 
-
-iii) No bugs that I know of/could find
-
-iv) Notes I took in class, class slides
