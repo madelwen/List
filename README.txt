@@ -1,8 +1,3 @@
-SECTION 1: Identifying Details
-i) Name: Madeline Wen
-ii) Unix login: mwen2
-iii) Emory email: mwen2@emory.edu
-
 --------------------
 
 SECTION 2: Delimiter Matching
